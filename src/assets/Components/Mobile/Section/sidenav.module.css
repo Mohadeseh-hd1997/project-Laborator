@@ -1,0 +1,63 @@
+.sidenav {
+    width: 280px;
+    transition: width 0.3s ease-in-out;
+    background-color: #0D1B58;
+    padding-top: 28px;
+    padding-left: 32px;
+    padding-right: 32px;
+    text-align: center;
+}
+
+.sidenavClosed {
+    composes: sidenav;
+    transition: width 0.3s ease-in-out;
+    width: 120px;
+    text-align: center;
+}
+
+.sideitem {
+    display: flex;
+    padding-top: 17.5px;
+    padding-bottom: 17.5px;
+    cursor: pointer;
+    color: #E5E5E5;
+    text-decoration: none;
+    margin-bottom: 16px;
+    text-align: right;
+}
+
+.linkText {
+    padding-left: 16px;
+}
+
+.linkTextClosed {
+    composes: linkText;
+    visibility: hidden;
+    display: none;
+}
+
+.Arrow {
+    padding-left: 16px;
+}
+
+.ArrowClosed {
+    display: none;
+}
+
+.sideitem:hover {
+    background-image: linear-gradient(to right, #C29552, #966F35);
+    border-radius: 20px 8px 8px 20px;
+    margin-right: 13.5px;
+    padding: 13px;
+
+}
+
+.menuBtn {
+    align-self: flex-start;
+    color: #E5E5E5;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-left: 30px;
+
+}

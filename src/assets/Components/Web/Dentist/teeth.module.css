@@ -1,0 +1,19 @@
+.toothchart {
+  width: 239px;
+  height: fit-content;
+  color: blue;
+
+}
+
+#svgID {
+  color: blue;
+
+}
+
+
+polygon:hover,
+polygon:active,
+path:hover,
+path:active {
+  fill: rgba(243, 190, 17, 0.452) !important;
+}
